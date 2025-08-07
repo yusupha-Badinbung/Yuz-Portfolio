@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusupha Kinteh Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Yusupha KIinteh. (1).png" alt="" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Yusupha Kinteh</span><br> from The Gambia</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/IMG_1427.jpg" width="400vw" height="350vh" class="image2">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Fugit culpa veritatis
+                        delectus voluptatum rerum quaerat iste 
+                        aut quasi vitae qui illo voluptatibus 
+                        molestias recusandae expedita, tenetur 
+                        cupiditate minus maiores. Praesentium.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Exprerience')" >Exprerience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>   
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front End Developer</span><br>Web Interface Development</li>
+                            <li><span>Backend Development</span><br>MongoDb/Mysql</li>
+                            <li><span>Machine Learning/Data Analysis</span><br>Machine Learning/Data Analysis  </li>
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="Exprerience">
+                        <ul>
+                            <li><span>Type Approval Assistant</span><br>Public Utilities Regulatory Authority 2024-current</li>
+                            <li><span>Maths Teacher</span><br>Da Vinci Senior Secondary School</li>
+                            <li><span>Maths Teacher</span><br>Khalid Bun Waleed Islamic School</li>
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>University Of the Gambia</span><br> Bsc Computer Science 2020-2025</li>
+                            <li><span>Nusrat Senior Secondary School</span><br>Studied Science as a field</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design </h2>
+                    <p>Loredipisicings est magni, vero cum. Rem 
+                        consequuntur culpa ut eligendi, exercit
+                      ationem est! Natus ut molestias voluptatum voluptate eum tenetur culpa?
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Loredipisicings est magni, vero cum. Rem 
+                        consequuntur culpa ut eligendi, exercit
+                      ationem est! Natus ut molestias voluptatum voluptate eum tenetur culpa?
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-car"></i>
+                    <h2>Type Approval</h2>
+                    <p>Loredipisicings est magni, vero cum. Rem 
+                        consequuntur culpa ut eligendi, exercit
+                      ationem est! Natus ut molestias voluptatum voluptate eum tenetur culpa?
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/IMG_20241026_092642.jpg" width="350px" height="300px" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus facilis, nihil repellendus aperiam non voluptas nam quis, dolore quas similique est, suscipit voluptatum 
+                            accusantium minus voluptatem aliquam cum laboriosam.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Yuzpic.png"width="350px" height="300px" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus facilis, nihil repellendus aperiam non voluptas nam quis, dolore quas similique est, suscipit voluptatum 
+                            accusantium minus voluptatem aliquam cum laboriosam.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/IMG_20241026_092651.jpg"width="350px" height="300px" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa natus facilis, nihil repellendus aperiam non voluptas nam quis, dolore quas similique est, suscipit voluptatum 
+                            accusantium minus voluptatem aliquam cum laboriosam.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+                <a href=""v class="btn">See More</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>yusupha.kinteh@pura.gm</p>
+                    <p><i class="fa-solid fa-phone"></i>+220 3416114</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/YUSUPHA_KINTEH_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" require >
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2025 <i class="fa-solid fa-heart"></i> Yusupha Kinteh. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+        
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzDhjzSUdZjhNr7XOsjFVPhj8SfDN0ZTm_wDNlkwHp8ia7AgyGOMIiIgiyBH88XGnpR/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML = "Message sent Succesfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+<!--2 and 7---->
+https://github.com/jamiewilson/form-to-google-sheets
+</html> 
