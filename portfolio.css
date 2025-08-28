@@ -387,6 +387,14 @@ nav .fa-solid{
     .logo{
         width: 200px;
     }
+    .workpic{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: row;
+    grid-gap:40px;
+    margin-top:50px;
+}
 }
 #msg{
     color: #61b752;
