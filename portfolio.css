@@ -393,8 +393,11 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
-section{
+.workpic{
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: column;
+    grid-gap:40px;
+    margin-top:50px;
 }
